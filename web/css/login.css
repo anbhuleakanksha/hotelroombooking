@@ -1,0 +1,437 @@
+body {
+    background-color: white;
+    background-image:url('./img/taj19.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.brandlogo {
+    height: 250px;
+    width: 300px;
+}
+
+.slogan {
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+.homebutton {
+    color: black;
+    position: relative;
+    left: 30px;
+    font-size: 22px;
+
+
+}
+
+.slg2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 300px;
+    font-size: 65px;
+    color: black;
+    position: relative;
+    top: 0px;
+}
+
+.logslg {
+    display: flex;
+}
+
+.loginbox {
+    position: relative;
+    right: 120px;
+    bottom: 20px;
+    height: 550px;
+    width: 1200px;
+    background-color: white;
+    box-shadow: 2px 0px 9px 2px tomato;
+    position: relative;
+}
+
+.loginheader {
+    height: 8px;
+    width: 100%;
+    background-color: tomato;
+
+}
+
+.loginheading {
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.emailname {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 23px;
+    position: relative;
+    bottom: 15px;
+}
+
+.emailbox {
+    margin-left: 40px;
+    height: 30px;
+    width: 280px;
+    position: relative;
+    bottom: 25px;
+}
+
+.emailbox:hover {
+    height: 31px;
+    width: 285;
+    box-shadow: 2px 2px 2px 2px rgb(241, 170, 158);
+}
+
+.passwordname {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 23px;
+    position: relative;
+    bottom: 55px;
+}
+
+.Passwordbox {
+    margin-left: 40px;
+    height: 30px;
+    width: 280px;
+    position: relative;
+    bottom: 65px;
+}
+
+.Passwordbox:hover {
+    height: 31px;
+    width: 285;
+    box-shadow: 2px 2px 2px 2px rgb(241, 170, 158);
+}
+
+.forgotpassword {
+    position: relative;
+    bottom: 69px;
+    left: 236px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.forgotpassword:hover {
+    transform: scale(1.10);
+}
+
+.signin {
+    background-color: tomato;
+    color: white;
+    position: relative;
+    bottom: 55px;
+    left: 100px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 1px 1px 1px 1px tomato;
+
+}
+
+.signin:hover {
+    height: 52px;
+    width: 112px;
+    background-color: rgb(241, 170, 158);
+    color: black;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0  tomato;
+}
+
+.signup {
+    position: relative;
+    bottom: 10px;
+    left: 230px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup:hover {
+    font-size: 16.5px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 298px;
+    height: 420px;
+    width: 100%;
+    background-color: #717171;
+  
+}
+.footer-about-us{
+   margin-left: 10px;
+    height: 350px;
+    width: 350px;
+    color: white;
+}
+.about-us{
+    padding-top: 60px;
+    color: white;
+}
+.footer-nvigation{
+    height: 300px;
+    width: 300px;
+    padding-top: 60px;
+    color: white;
+}
+.navigation-pages{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-connect{
+    height: 380px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+}
+.location{
+    height: 25px;
+    width: 25px;
+}
+.location-address{
+    color: white;
+    text-decoration: none;
+}
+.mail{
+    height: 25px;
+    width: 25px;
+}
+.mail-address{
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    height: 25px;
+    width: 25px;
+}
+.contact-address{
+    color: white;
+    text-decoration: none;
+}
+.facebook{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.footer-last{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+.last-footer-text{
+    color: white;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+}
+@media (max-width:600px) {
+    .brandlogo {
+        height: 120px;
+        width: 150px;
+    }
+
+    .slogan {
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-right: 0px;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        right: 10px;
+        bottom: 60px;
+    }
+
+    .homebutton {
+        color: white;
+        position: relative;
+        left: 5px;
+        font-size: 20px;
+        bottom: 10px;
+
+    }
+
+    .loginbox {
+        position: relative;
+        right: 610px;
+        bottom: 65px;
+        height: 500px;
+        width: 1200px;
+        background-color: white;
+        box-shadow: 3px 3px 5px 5px tomato;
+        position: relative;
+    }
+
+    .forgotpassword {
+        position: relative;
+        bottom: 69px;
+        left: 200px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .signup {
+        position: relative;
+        bottom: 24px;
+        left: 120px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .emailname {
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 23px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .emailbox {
+        margin-left: 20px;
+        height: 30px;
+        width: 250px;
+        box-shadow: 2px 2px 2px 2px tomato;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .passwordname {
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 23px;
+        position: relative;
+        bottom: 55px;
+    }
+
+    .Passwordbox {
+        margin-left: 20px;
+        height: 30px;
+        width: 300px;
+        box-shadow: 2px 2px 2px 2px tomato;
+        position: relative;
+        bottom: 65px;
+    }
+    .signup {
+        position: relative;
+        bottom: 13px;
+        left: 115px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+        width: 100%;
+        background-color: #717171;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+        color: white;
+    }
+    .about-us{
+        padding-top: 10px;
+        color: white;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+        color: white;
+    }
+    .navigation-pages{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+        color: white;
+    }
+    .location{
+        height: 20px;
+        width: 20px;
+    }
+    .location-address{
+        color: white;
+        text-decoration: none;
+    }
+    .mail{
+        height: 20px;
+        width: 20px;
+    }
+    .mail-address{
+        color: white;
+        text-decoration: none;
+    }
+    .contact{
+        height: 20px;
+        width: 20px;
+    }
+    .contact-address{
+        color: white;
+        text-decoration: none;
+    }
+    .facebook{
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+    }
+    .footer-last{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+    }
+    .last-footer-text{
+        color: white;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    admin{
+        background-color: tomato;
+    color: white;
+    position: relative;
+    bottom: 85px;
+    left: 100px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    width: 130px;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 1px 1px 1px 1px tomato;
+    margin top:30px;
+    }  
+    .admin:hover {
+    height: 82px;
+    width: 130px;
+    background-color: rgb(241, 170, 158);
+    color: black;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0  tomato;
+}
+}

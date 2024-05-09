@@ -1,0 +1,270 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class about_jsp_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.Vector _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public Object getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html lang=\"en\">\n");
+      out.write("\n");
+      out.write("<head>\n");
+      out.write("    <meta charset=\"UTF-8\">\n");
+      out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
+      out.write("    <title>About Page</title>\n");
+      out.write("    <link rel=\"stylesheet\" href=\"./css/about.css\">\n");
+      out.write("</head>\n");
+      out.write("\n");
+      out.write("<body>\n");
+      out.write("    <div class=\"slideshow-container\">\n");
+      out.write("        <div class=\"mySlides fade\">\n");
+      out.write("            <div>\n");
+      out.write("                <img src=\"./img/taj1.png\"  class=\"abc\" />\n");
+      out.write("            </div>\n");
+      out.write("            <div class=\"menus\">\n");
+      out.write("                <a class='text-decoration' href='/index.jsp'> HOME</a>\n");
+      out.write("                <a class='text-decoration' href='./rooms.jsp'> ROOMS</a>\n");
+      out.write("                <a class='text-decoration' href='./Services.jsp'>OUR SERVISES</a>\n");
+      out.write("                <a class='text-decoration' href='./about.jsp'> ABOUT US</a>\n");
+      out.write("                <a class='text-decoration' href='./blog.jsp'> BLOG</a>\n");
+      out.write("                <a class='text-decoration' href='./help.jsp'> HELP</a>\n");
+      out.write("                <a class='text-decoration' href='./login.jsp'> LOGIN?????</a>\n");
+      out.write("            </div>\n");
+      out.write("\n");
+      out.write("            <img src=\"./img/tajhotel.jpg\"style=\"width:100%\" height=\"700px\">\n");
+      out.write("            <div class=\"text\">COME, FIND <br/>YOURSELF AT <br/>TAJ HOTEL</div>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("        <div class=\"mySlides fade\">\n");
+      out.write("            <div>\n");
+      out.write("               <img src=\"./img/taj1.png\"  class=\"abc\" />\n");
+      out.write("            </div>\n");
+      out.write("            <div class=\"menus\">\n");
+      out.write("                <a class='text-decoration' href='/index.jsp'> HOME</a>\n");
+      out.write("                <a class='text-decoration' href='./rooms.jsp'> ROOMS</a>\n");
+      out.write("                <a class='text-decoration' href='./Services.jsp'>OUR SERVISES</a>\n");
+      out.write("                <a class='text-decoration' href='./about.jsp'> ABOUT US</a>\n");
+      out.write("                <a class='text-decoration' href='./blog.jsp'> BLOG</a>\n");
+      out.write("                <a class='text-decoration' href='./help.jsp'> HELP</a>\n");
+      out.write("                <a class='text-decoration' href='./login.jsp'> LOGIN?????</a>\n");
+      out.write("            </div>\n");
+      out.write("\n");
+      out.write("            <img src=\"./img/tajhotel.jpg\"style=\"width:100%\" height=\"700px\">\n");
+      out.write("            <div class=\"text\">EXPERIENCE THE <br />LUXURY</div>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("        <div class=\"mySlides fade\">\n");
+      out.write("            <div>\n");
+      out.write("                <img src=\"./img/taj1.png\"  class=\"abc\" />\n");
+      out.write("            </div>\n");
+      out.write("            <div class=\"menus\">\n");
+      out.write("                <a class='text-decoration' href='/index.jsp'> HOME</a>\n");
+      out.write("                <a class='text-decoration' href='./rooms.jsp'> ROOMS</a>\n");
+      out.write("                <a class='text-decoration' href='./Services.jsp'>OUR SERVISES</a>\n");
+      out.write("                <a class='text-decoration' href='./about.jsp'> ABOUT US</a>\n");
+      out.write("                <a class='text-decoration' href='./blog.jsp'> BLOG</a>\n");
+      out.write("                <a class='text-decoration' href='./help.jsp'> HELP</a>\n");
+      out.write("                <a class='text-decoration' href='./login.jsp'> LOGIN?????</a>\n");
+      out.write("            </div>\n");
+      out.write("\n");
+      out.write("            <img src=\"./img/tajhotel.jpg\"style=\"width:100%\" height=\"700px\">\n");
+      out.write("            <div class=\"text\">WE'RE WAITING TO <br />WELCOMES YOU</div>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    <div class=\"mySlides fade\">\n");
+      out.write("        <div>\n");
+      out.write("            <img src=\"./img/taj1.png\"  class=\"abc\" />\n");
+      out.write("            </div>\n");
+      out.write("            <div class=\"menus\">\n");
+      out.write("                <a class='text-decoration' href='/index.jsp'> HOME</a>\n");
+      out.write("                <a class='text-decoration' href='./rooms.jsp'> ROOMS</a>\n");
+      out.write("                <a class='text-decoration' href='./Services.jsp'>OUR SERVISES</a>\n");
+      out.write("                <a class='text-decoration' href='./about.jsp'> ABOUT US</a>\n");
+      out.write("                <a class='text-decoration' href='./blog.jsp'> BLOG</a>\n");
+      out.write("                <a class='text-decoration' href='./help.jsp'> HELP</a>\n");
+      out.write("                <a class='text-decoration' href='./login.jsp'> LOGIN?????</a>\n");
+      out.write("            </div>\n");
+      out.write("\n");
+      out.write("            <img src=\"./img/tajhotel.jpg\"style=\"width:100%\" height=\"700px\">\n");
+      out.write("        <div class=\"text\">EXPERIENCE THE <br />BEAUTY</div>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    </div>\n");
+      out.write("    <br>\n");
+      out.write("\n");
+      out.write("    <div style=\"text-align:center\">\n");
+      out.write("        <span class=\"dot\"></span>\n");
+      out.write("        <span class=\"dot\"></span>\n");
+      out.write("        <span class=\"dot\"></span>\n");
+      out.write("        <span class=\"dot\"></span>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <h1 class=\"about-page-heading\">Welcome to Taj Hotel...</h1>\n");
+      out.write("    <div class=\"intro\">\n");
+      out.write("        <div>\n");
+      out.write("            <p class=\"about-page-description\">\n");
+      out.write("                Located in the heart of the city, Taj Hotel has been an epitome of luxury\n");
+      out.write("                and hospitality since its establishment in 1903. Over the years, it has welcomed discerning guests, celebrities, and dignitaries from around the world.\n");
+      out.write("            </p>\n");
+      out.write("        </div>\n");
+      out.write("        <img src=\"../images/taj-hotel.jpg\" class=\"taj-hotel-img\" />\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <h1 class=\"about-page-heading\">Our Rich History</h1>\n");
+      out.write("    <div class=\"intro\">\n");
+      out.write("        <img src=\"../images/taj-hotel-1.jpg\" class=\"taj-hotel-img1\" />\n");
+      out.write("        <div>\n");
+      out.write("            <p class=\"about-page-description1\"> \n");
+      out.write("                From its inception, Taj Hotel has set the standard for luxury and grandeur. It was built with a vision to offer a blend of traditional Indian hospitality with contemporary amenities, making it an iconic landmark. <br> \n");
+      out.write("                Throughout its history, Taj Hotel has been a hub for cultural exchange, exquisite dining, and unparalleled service, preserving its legacy as a symbol of elegance.\n");
+      out.write("            </p>\n");
+      out.write("        </div>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <h1 class=\"about-page-heading\">Our Services</h1>\n");
+      out.write("    <div class=\"intro\">\n");
+      out.write("        <div>\n");
+      out.write("            <p class=\"about-page-description1\">\n");
+      out.write("                At Taj Hotel, we strive to provide an exceptional experience to our guests. Our services include:\n");
+      out.write("            </p>\n");
+      out.write("            <ul class=\"our-services\">\n");
+      out.write("                <li>Luxurious Accommodations</li>\n");
+      out.write("                <li>World-Class Dining</li>\n");
+      out.write("                <li>Spa & Wellness Facilities</li>\n");
+      out.write("                <li>Event Spaces for Special Occasions</li>\n");
+      out.write("                <li>Concierge Services</li>\n");
+      out.write("            </ul>\n");
+      out.write("        </div>\n");
+      out.write("        <img src=\"../images/taj-hotel-2.jpg\" class=\"taj-hotel-img2\" />\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <div>\n");
+      out.write("      <h1 class=\"about-page-heading\">Gallery</h1>\n");
+      out.write("      <p class=\"gallery-title\">Explore Taj Hotel... <br> See, What We Have In Store For You </p>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <div class=\"main-image-container\">\n");
+      out.write("        <img src=\"../images/1.jpg\" class=\"main-hotel-image\" id=\"main-hotel-image\" />\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <div class=\"images-container\">\n");
+      out.write("        <img src=\"../images/1.jpg\" class=\"hotel-image\" onclick=\"changeImage(1)\" />\n");
+      out.write("        <img src=\"../images/2.jpg\" class=\"hotel-image\" onclick=\"changeImage(2)\"/>\n");
+      out.write("        <img src=\"../images/3.webp\" class=\"hotel-image\" onclick=\"changeImage(3)\"/>\n");
+      out.write("        <img src=\"../images/4.jpg\" class=\"hotel-image\" onclick=\"changeImage(4)\"/>\n");
+      out.write("        <img src=\"../images/5.jpg\" class=\"hotel-image\" onclick=\"changeImage(5)\"/>\n");
+      out.write("        <img src=\"../images/6.jpg\" class=\"hotel-image\" onclick=\"changeImage(6)\"/>\n");
+      out.write("        <img src=\"../images/7.jpg\" class=\"hotel-image\" onclick=\"changeImage(7)\"/>\n");
+      out.write("        <img src=\"../images/8.jpeg\" class=\"hotel-image\" onclick=\"changeImage(8)\"/>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    <div class=\"footer\">\n");
+      out.write("        <div class=\"footer-about-us\">\n");
+      out.write("            <h2 class=\"about-us\">About Us</h2><hr/>\n");
+      out.write("            Hotel Taj is the right choice for visitors who are searching for combination of charm and joyful nature view from where to explore surroundings. Our rooms are appointed to make your stay more comfortable.\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"footer-nvigation\">\n");
+      out.write("            <h2 class=\"navigation\">Navigation</h2><hr/>\n");
+      out.write("            <a class='navigation-pages' href='/'>Home</a>\n");
+      out.write("            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n");
+      out.write("            \n");
+      out.write("            <a class='navigation-pages' href='/pages/about'>About</a>\n");
+      out.write("\n");
+      out.write("            <br/><br/><br/>\n");
+      out.write("            <a class='navigation-pages' href='/pages/room'>Rooms</a>\n");
+      out.write("            <br/><br/><br/>\n");
+      out.write("            <a class='navigation-pages' href='/pages/help'>Contact</a>\n");
+      out.write("            \n");
+      out.write("\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("        <div class=\"footer-connect\">\n");
+      out.write("            <h2 class=\"navigation\">Let's Connect</h2><hr/>\n");
+      out.write("            <span>\n");
+      out.write("                <image class=\"location\" src=\"../images/location.png\"/>\n");
+      out.write("                <a class=\"location-address\" href=\"https://www.google.com/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9220082,72.8332028,17z/data=!3m1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m20!1m10!3m9!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!2sThe+Taj+Mahal+Palace,+Mumbai!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj!3m8!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj?entry=ttu\">Apollo Bandar, Colaba, Mumbai, Maharashtra 400001</a><br/><br/>\n");
+      out.write("                \n");
+      out.write("                <img class=\"mail\" src=\"../images/mail.png\"/>\n");
+      out.write("                <a  class=\"mail-address\" href=\"https://www.tajhotels.com/en-in/about-us/contact-us/write-to-us/\">care.tajness.gmail.com</a>\n");
+      out.write("                <br/><br/>\n");
+      out.write("                <img class=\"contact\" src=\"../images/phone-call.png\"/>\n");
+      out.write("                <a class=\"contact-address\" href=\"+91 (22) 6601 1825.\">+91 (22) 6601 1825.</a>\n");
+      out.write("            </span>\n");
+      out.write("            <br/><br/><br/>\n");
+      out.write("            \n");
+      out.write("            <span>\n");
+      out.write("            <img class=\"facebook\" src=\"../images/facebook.png\"/>\n");
+      out.write("            <img class=\"facebook\" src=\"../images/twitter.png\"/>\n");
+      out.write("            <img class=\"facebook\" src=\"../images/instagram.png\"/> \n");
+      out.write("            </span>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("    </div>\n");
+      out.write("    <div class=\"footer-last\">\n");
+      out.write("        <span class=\"last-footer-text\">Hotel Taj © 2023-All Rights Reserved.</span>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    <script src=\"./js/about.js\"></script>\n");
+      out.write("\n");
+      out.write("</body>\n");
+      out.write("\n");
+      out.write("</html>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

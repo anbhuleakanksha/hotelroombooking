@@ -1,0 +1,439 @@
+body {
+    
+    background-image: url('../images/new.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.brandlogo {
+    height: 240px;
+    width: 280px;
+}
+
+.slogan {
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+.homebutton {
+    color: black;
+    position: relative;
+    left: 30px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.slg2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 300px;
+    font-size: 65px;
+    color: black;
+    position: relative;
+    top: 0px;
+}
+
+.logslg {
+    display: flex;
+}
+
+.loginbox {
+    position: relative;
+    right: 120px;
+    bottom: 10px;
+    height: 550px;
+    width: 1200px;
+    background-color: white;
+    box-shadow: 2px 0px 9px 2px tomato;
+    position: relative;
+}
+
+.loginheader {
+    height: 8px;
+    width: 100%;
+    background-color: tomato;
+
+}
+
+.loginheading {
+    margin-left: 20px;
+    font-size: 40px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+}
+
+.name {
+    display: flex;
+}
+
+.first {
+    position: relative;
+    left: 16px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.Last {
+    position: relative;
+    left: 40px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.firstbox {
+    position: relative;
+    left: 15px;
+    bottom: 40px;
+    height: 22px;
+    width: 160px;
+    box-shadow: 1px 1px 1px 1px tomato;
+}
+
+.firstbox:hover {
+    height: 23px;
+}
+
+.lastbox {
+    position: relative;
+    left: 39px;
+    bottom: 40px;
+    height: 22px;
+    width: 160px;
+    box-shadow: 1px 1px 1px 1px tomato;
+}
+
+.lastbox:hover {
+    height: 23px;
+}
+
+.email {
+    position: relative;
+    bottom: 45px;
+    left: 18px;
+}
+
+.emailbox {
+    height: 22px;
+    width: 348px;
+    box-shadow: 1px 1px 1px 1px tomato;
+    position: relative;
+    bottom: 53px;
+    left: 18px;
+}
+
+.emailbox:hover {
+    height: 23px;
+}
+
+.password {
+    position: relative;
+    bottom: 55px;
+    left: 18px;
+}
+
+.Passwordbox {
+    height: 22px;
+    width: 348px;
+    box-shadow: 1px 1px 1px 1px tomato;
+    position: relative;
+    bottom: 63px;
+    left: 18px;
+}
+
+.Passwordbox:hover {
+    height: 23px;
+}
+
+.signup {
+    background-color: tomato;
+    color: white;
+    position: relative;
+    bottom: 55px;
+    left: 100px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 1px 1px 1px 1px tomato;
+}
+
+.signup:hover {
+    height: 52px;
+    width: 112px;
+    background-color: rgb(241, 170, 158);
+    color: black;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0  tomato;
+}
+
+.already {
+    position: relative;
+    bottom: 20px;
+    left: 220px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.already:hover {
+    transform: scale(1.10);
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 308px;
+    height: 420px;
+    width: 100%;
+    background-color:  #717171;
+}
+.footer-about-us{
+   margin-left: 10px;
+    height: 300px;
+    width: 350px;
+    color: white;
+    border: 2px solid #717171;
+}
+.about-us{
+    padding-top: 60px;
+    color: white;
+}
+.footer-nvigation{
+    height: 300px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+    border: 2px solid #717171;
+
+}
+.navigation-pages{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-connect{
+    height: 300px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+    border: 2px solid #717171;
+}
+.location{
+    height: 25px;
+    width: 25px;
+}
+.location-address{
+    color: white;
+    text-decoration: none;
+}
+.mail{
+    height: 25px;
+    width: 25px;
+}
+.mail-address{
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    height: 25px;
+    width: 25px;
+}
+.contact-address{
+    color: white;
+    text-decoration: none;
+}
+.facebook{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.footer-last{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 40px;
+}
+.last-footer-text{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    display: block;
+}
+@media (max-width:600px) {
+    .brandlogo {
+        height: 120px;
+        width: 150px;
+    }
+
+    .slogan {
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-right: 0px;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        right: 10px;
+        bottom: 60px;
+    }
+
+    .homebutton {
+        color: white;
+        position: relative;
+        left: 1px;
+        font-size: 15px;
+        bottom: 6px;
+
+    }
+    .loginbox {
+        position: relative;
+        right: 598px;
+        bottom: 65px;
+        height: 500px;
+        width: 1000px;
+        background-color: white;
+        box-shadow: 3px 3px 5px 5px tomato;
+        position: relative;
+    }
+
+    .firstbox {
+        position: relative;
+        left: 15px;
+        bottom: 40px;
+        height: 22px;
+        width: 110px;
+        box-shadow: 2px 2px 2px 2px tomato;
+    }
+
+    .lastbox {
+        position: relative;
+        left: 39px;
+        bottom: 40px;
+        height: 22px;
+        width: 110px;
+        box-shadow: 2px 2px 2px 2px tomato;
+    }
+
+    .emailbox {
+        height: 22px;
+        width: 280px;
+        box-shadow: 2px 2px 2px 2px tomato;
+        position: relative;
+        bottom: 53px;
+        left: 15px;
+    }
+
+    .Passwordbox {
+        height: 22px;
+        width: 330px;
+        box-shadow: 2px 2px 2px 2px tomato;
+        position: relative;
+        bottom: 63px;
+        left: 15px;
+    }
+
+    .already {
+        position: relative;
+        bottom: 58px;
+        left: 133px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .loginheading {
+        margin-left: 20px;
+        font-size: 40px;
+        position: relative;
+        bottom: 15px;
+        left: 69px;
+    }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+        width: 100%;
+        background-color: #717171;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+        color: white;
+    }
+    .about-us{
+        padding-top: 10px;
+        color: white;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+        color: white;
+    }
+    .navigation-pages{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+        color: white;
+    }
+    .location{
+        height: 20px;
+        width: 20px;
+    }
+    .location-address{
+        color: white;
+        text-decoration: none;
+    }
+    .mail{
+        height: 20px;
+        width: 20px;
+    }
+    .mail-address{
+        color: white;
+        text-decoration: none;
+    }
+    .contact{
+        height: 20px;
+        width: 20px;
+    }
+    .contact-address{
+        color: white;
+        text-decoration: none;
+    }
+    .facebook{
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+    }
+    .footer-last{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+    }
+    .last-footer-text{
+        color: white;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+}
